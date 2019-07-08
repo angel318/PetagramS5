@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.PerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center|top"
+            android:src="@drawable/perro4"
+            app:civ_border="true"
+            app:civ_border_color="@color/colorSecondaryText"
+            app:civ_border_width="8dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/colorSecondaryText"
+            app:civ_shadow_radius="10" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombrePerfil"
+            android:text="Loki"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDividerColor"
+            android:layout_margin="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMiMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</FrameLayout>

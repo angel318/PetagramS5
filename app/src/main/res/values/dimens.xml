@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="appbar_elevation">4dp</dimen>
+    <dimen name="title_size">30dp</dimen>
+    <dimen name="padding_image">10dp</dimen>
+    <dimen name="name_pet_cv">25sp</dimen>
+    <dimen name="left_margin_image_cv">18dp</dimen>
+    <dimen name="padding_rate_total">150dp</dimen>
+</resources>
